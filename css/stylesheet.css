@@ -1,5 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
+.test
+{
+	border: 2px solid #FFFFFF;
+    padding: 0px 7px;
+    background: #FFFFFF;
+    /*width: 200px;*/
+    color: #AAAAAA;
+}
+
 body
 {
  background-color: #AAAAAA;
