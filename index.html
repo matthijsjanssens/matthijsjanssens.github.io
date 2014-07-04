@@ -3,12 +3,34 @@
 	<head>		
 		<title>Test title</title>
 		<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery-color.js"></script>
 	</head>
 
 	<body>
+	<table>
+		<tr><h1 class="test">matthijs janssens</h1></tr>
+		<tr>
+			<td><div class="one">about</div></td>
+			<td><div class="one">portfolio</div></td>
+			<td><div class="one">blog</div></td>
+		</tr>
+	</table>
 		<h1 class="test">matthijs janssens</h1>
-		<p>test test test</p>
-		<p>test test</p>
-		<p>test</p>		
+		<br><div class="one">about</div>
+		<div class="one">portfolio</div>
+		<div class="one">blog</div>
+		<p><div id="one">test test</div> test test<br>test</p>	
+		<script>
+			$('.one').hover(
+		    function()
+		    {
+		        $(this).animate({'backgroundColor': '#FFF','color': '#AAA'},100);		      
+		    },
+		    function()
+		    {
+				$(this).animate({'backgroundColor': '#AAA','color': '#FFF'},100);	
+		    }); 		
+		</script>	
 	</body>
 </html>
