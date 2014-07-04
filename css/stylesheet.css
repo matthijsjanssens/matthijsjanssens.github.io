@@ -3,17 +3,26 @@
 .test
 {
 	/*border: 2px solid #FFFFFF;*/
-    padding: 0px 7px;
+    /*padding: 0px 7px;*/
+    padding-left:  7px;
+    padding-right: 7px;
+    padding-bottom: 2px;
     background: #FFFFFF;
     /*width: 200px;*/
     color: #AAAAAA;
-    display:inline-block
+    /*display:inline-block;*/
 }
 
 h1
 {
+	color: #AAAAAA;
 	font-size: 20px;
-	margin-bottom: 0px;
+	margin: 0;
+	padding-left:  7px;
+    padding-right: 7px;
+    padding-bottom: 2px;
+    background: #FFFFFF;
+    display:inline-block;
 }
 
 body
@@ -33,13 +42,38 @@ body
 	padding-left: 4px;
 }
 
-table
+table, th, td
 {
-/*border:0px solid black;*/
-border-collapse: collapse;
- /*cellpadding:0;*/
+	/*column-width: auto*/
+	/*border:1px solid black;*/
+	/*max-width:  300px;*/
+	border-spacing: 0;
+	border-collapse: collapse;
+	cellpadding:0;
+ 	margin-top: 0;
+ 	margin-left: 0;
+ 	margin-right: 0;
+ 	margin-bottom: 0;
+ /*width:165px;*/
 }
-th, td
+td
 {
 	padding: 0;
 }
+
+.button
+{  
+	/*display:inline-block;*/
+	margin: 0;
+	padding-right: 4px;
+	padding-left: 4px;
+    color: #FFF;
+    background-color: #AAA;
+    -webkit-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -ms-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    transition: background 0.3s linear;
+}
+
+.button:hover {background-color: #FFF; color: #AAA;}
