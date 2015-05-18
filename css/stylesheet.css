@@ -26,7 +26,7 @@ h1
 }
 
 body
-{
+{	
 	 background-color: #AAA;
 	 color: #FFFFFF;
 	 font-family: 'Source Sans Pro', sans-serif;
@@ -48,6 +48,24 @@ td
 	padding:0px;
 }
 
+.background
+{
+	top: 0;
+  	left: 0;
+	position: fixed;
+	z-index:-2;
+}
+
+.portrait
+{
+	position: fixed;
+	z-index:-1;
+	width: 1000px;
+	height: auto;
+	bottom: 0;
+	right: 0;
+}
+
 .button
 {  
 	/*display:inline-block;*/
@@ -56,7 +74,7 @@ td
 	padding-left: 4px;
 	padding-bottom: 1px;
     color: #FFF;
-    background-color: #AAA;
+    
     -webkit-transition: background 0.3s ease-out;
     -moz-transition: background 0.3s ease-out;
     -ms-transition: background 0.3s ease-out;
