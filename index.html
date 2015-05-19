@@ -2,23 +2,14 @@
 <html>
 	<head>		
 		<title>Matthijs Janssens</title>
-		<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />	
-		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/processing.min.js"></script>	
-		<script type="text/javascript">
-			function resizeCanvas()
-			{
-			    Processing.getInstanceById("canvas0").size(window.innerWidth, window.innerHeight);
-			    
-			}
-		</script>
+		<link rel="stylesheet" href="css/stylesheet.css" type="text/css" />			
+		<script language="javascript" type="text/javascript" src="js/p5/p5.min.js"></script>	
+		<script language="javascript" type="text/javascript" src="js/p5/sketch.js"></script>	
 	</head>	
 	
-	<body onload="resizeCanvas();" onresize="resizeCanvas();">	
-
-			
-		<canvas id="canvas0" class="background" data-processing-sources="js/hello.pde"></canvas>
-		<img class="portrait" src="img/portrait.png"> 
+	<body>
+		<div id='p5parent' class="background"></div>
+		<!--<img class="portrait" src="img/portrait.png"> -->
 		<table>
 			<tr><td colspan="4"><h1>matthijs janssens</h1></td></tr>
 			<tr>
