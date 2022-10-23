@@ -1,6 +1,6 @@
 baseURL = "http://matthijsjanssens.github.io/"
 languageCode = "en-us"
-title = "Matthijs Janssens' Blog"
+title = "Matthijs Janssens"
 theme = "PaperMod"
 
 [params]
