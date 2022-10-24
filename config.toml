@@ -7,6 +7,8 @@ enableEmoji = true
 [params]
 env = 'production'
 hideSummary = true
+comments = true
+defaultTheme = 'auto'
 
 [params.homeInfoParams]
 Title = 'Hi there 👋🏻'
@@ -17,7 +19,7 @@ My name is **Matthijs Janssens** *(ma-tess ian-sense)*.
 
 I'm a seasoned **technical artist** working in **videogames** with a background in **music composition**.
 
-Among many things I enjoy gamedev, felted pianos, tea, chess and toads.
+Into gamedev, felted pianos, tea, chess and toads.
 """
 
 [[params.socialIcons]]
