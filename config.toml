@@ -34,7 +34,7 @@ url = 'https://www.linkedin.com/in/matthijs-janssens-23858a59/'
 
 [[params.socialIcons]]
 name = 'rss'
-url = 'http://matthijsjanssens.github.io/index.xml'
+url = 'https://matthijsjanssens.github.io/index.xml'
 
 [outputs]
 home = [ 'HTML', 'RSS', 'JSON' ]
