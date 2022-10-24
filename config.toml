@@ -17,7 +17,7 @@ My name is **Matthijs Janssens** *(ma-tess ian-sense)*.
 
 I'm a seasoned **technical artist** working in **videogames** with a background in **music composition**.
 
-I love gamedev, felted pianos, tea, chess and toads.
+Among many things I enjoy gamedev, felted pianos, tea, chess and toads.
 """
 
 [[params.socialIcons]]
@@ -31,3 +31,10 @@ url = 'https://github.com/matthijsjanssens'
 [[params.socialIcons]]
 name = 'linkedin'
 url = 'https://www.linkedin.com/in/matthijs-janssens-23858a59/'
+
+[[params.socialIcons]]
+name = 'rss'
+url = 'http://matthijsjanssens.github.io/index.xml'
+
+[outputs]
+home = [ 'HTML', 'RSS', 'JSON' ]
