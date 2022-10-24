@@ -1,18 +1,32 @@
-baseURL = "http://matthijsjanssens.github.io/"
-languageCode = "en-us"
-title = "Matthijs Janssens"
-theme = "PaperMod"
+baseURL = 'http://matthijsjanssens.github.io/'
+languageCode = 'en-us'
+title = 'Matthijs Janssens'
+theme = 'PaperMod'
+enableEmoji = true
 
 [params]
-  author = "Matthijs Janssens"
-  description = "A blog about all things technical."
+env = 'production'
 
-  [[params.social]]
-    icon = "github"
-    name = "GitHub"
-    url = "https://github.com/matthijsjanssens"
+[params.homeInfoParams]
+Title = 'Hi there 👋'
+Content = """
+Welcome to my blog!
 
-  [[params.social]]
-    icon = "twitter"
-    name = "Twitter"
-    url = "https://twitter.com/matthijsjanssns"
+My name is **Matthijs Janssens** *(ma-tess ian-sense)*
+
+I'm a seasoned **technical artist** working in **videogames** with a background in **music composition**
+
+I love gamedev, felted pianos, tea, chess and toads
+"""
+
+[[params.socialIcons]]
+name = 'twitter'
+url = 'https://twitter.com/matthijsjanssns'
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/matthijsjanssens'
+
+[[params.socialIcons]]
+name = 'linkedin'
+url = 'https://www.linkedin.com/in/matthijs-janssens-23858a59/'
