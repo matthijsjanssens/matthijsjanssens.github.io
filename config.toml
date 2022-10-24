@@ -5,26 +5,30 @@ theme = 'PaperMod'
 enableEmoji = true
 
 [params]
-env = 'production'
 hideSummary = true
 comments = true
 defaultTheme = 'auto'
+ShowCodeCopyButtons = true
 
 [params.homeInfoParams]
-Title = 'Hi there 👋🏻'
+Title = "Hi there, I'm Matt 👋🏻"
 Content = """
-Welcome to my blog!
+**Lead Technical Artist** in games working at [**Studio Gobo**](https://www.studiogobo.com/)
 
-My name is **Matthijs Janssens** *(ma-tess ian-sense)*.
-
-I'm a seasoned **technical artist** working in **videogames** with a background in **music composition**.
-
-Into gamedev, felted pianos, tea, chess and toads.
+Welcome to my personal **game development blog**
 """
+
+[[params.socialIcons]]
+name = 'instagram'
+url = 'https://www.instagram.com/matts.janss/'
 
 [[params.socialIcons]]
 name = 'twitter'
 url = 'https://twitter.com/matthijsjanssns'
+
+[[params.socialIcons]]
+name = 'spotify'
+url = 'https://open.spotify.com/user/117013342?si=92b87c0e75b744b9'
 
 [[params.socialIcons]]
 name = 'github'
