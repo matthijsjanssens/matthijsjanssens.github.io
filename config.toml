@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Matthijs Janssens'
 theme = 'PaperMod'
 enableEmoji = true
+googleAnalytics = 'G-S25PLFZEW4'
 
 [params]
 hideSummary = true
