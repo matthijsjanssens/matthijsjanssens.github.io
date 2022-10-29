@@ -13,15 +13,15 @@ First things first...
 print('Hello world!')
 ```
 
-**Hello world!**
+*Hello world!*
 
 ---
 
 With that out of the way...
 
-Games and the processes to build them are ever evolving, and I struggle to contain my enthusiasm whenever there's an opportunity to talk about related topics. So much so that I decided to start a blog, after working well over a decade in video games, to share some of the ideas that might also excite other fellow nerds out there.
+Video games and the processes to build them are ever evolving, and I struggle to contain my enthusiasm whenever there's an opportunity to talk about these things. So much so that, after working a decade in games, I decided to start a blog to share some ideas that might excite like-minded people out there.
 
-Special thanks to the freely available tools that have made setting up this blog a joy:
+Special thanks to the developers of the following free tools which made the creation of this blog an absolute joy:
 
 * [Hugo](https://gohugo.io)
 * [Hugo Notice](https://github.com/martignoni/hugo-notice)
