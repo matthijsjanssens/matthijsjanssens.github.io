@@ -1,6 +1,17 @@
+/* UPDATE: Make the code highlighted text match theme (defaults square) (cat layouts/partials/css/syntax-dark.css | grep bg) */
+code {
+    border-radius: 4px !important;
+    color: unset !important;
+}
+
+/* font color when dark (cat layouts/partials/css/syntax-dark.css | grep bg) */
+.dark code {
+    color: #f8f8f2 !important;
+}
+
 :root {
     --theme: rgb(245, 245, 245);
-    --hljs-bg: #fff;
+    --hljs-bg: #F8F9FA;
     /* --entry: #ffcfcf;
     --primary: rgba(255, 0, 64, 0.88);
     --tertiary: rgb(0, 0, 247);
@@ -13,7 +24,7 @@
 }
 
 .dark {
-    --hljs-bg: #282a36;
+    --hljs-bg: #222;
 }
 /* .dark {
     --theme: #101c7a;

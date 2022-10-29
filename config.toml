@@ -24,7 +24,7 @@ unsafe = true
 [markup.highlight]
 codeFences = true
 guessSyntax = true
-lineNos = false
+lineNos = true
 noClasses = false
 
 [params.homeInfoParams]
