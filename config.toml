@@ -1,7 +1,7 @@
 baseURL = 'http://matthijsjanssens.github.io/'
 languageCode = 'en-us'
 title = 'Matthijs Janssens'
-theme = 'PaperMod'
+theme = ['hugo-notice', 'PaperMod']
 enableEmoji = true
 googleAnalytics = 'G-S25PLFZEW4'
 pygmentsUseClasses = true
