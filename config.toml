@@ -4,12 +4,28 @@ title = 'Matthijs Janssens'
 theme = 'PaperMod'
 enableEmoji = true
 googleAnalytics = 'G-S25PLFZEW4'
+pygmentsUseClasses = true
 
 [params]
 hideSummary = true
 comments = true
 defaultTheme = 'auto'
 ShowCodeCopyButtons = true
+disableThemeToggle = false
+
+[params.assets]
+disableHLJS = true
+disableFingerprinting = false 
+# https://github.com/adityatelange/hugo-PaperMod/issues/89#issuecomment-736549907
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = false
+noClasses = false
 
 [params.homeInfoParams]
 Title = "Hi there, I'm Matt 👋🏻"
