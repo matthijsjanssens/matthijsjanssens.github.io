@@ -1,5 +1,5 @@
 ---
-title: "Hello world"
+title: "Hello World"
 date: 2022-10-23T23:28:13+01:00
 author: "Matthijs Janssens"
 draft: false
@@ -21,6 +21,9 @@ With that out of the way...
 
 Video games and the processes to build them are ever evolving, and I struggle to contain my enthusiasm whenever there's an opportunity to talk about these things. So much so that, after working a decade in games, I decided to start a blog to share some ideas that might excite like-minded people out there.
 
+Peace out.
+
+{{< notice note >}}
 Special thanks to the developers of the following free tools which made the creation of this blog an absolute joy:
 
 * [Hugo](https://gohugo.io)
@@ -29,5 +32,4 @@ Special thanks to the developers of the following free tools which made the crea
 * [Giscus](https://giscus.app)
 * [Github Pages](https://pages.github.com)
 * [Visual Studio Code](https://code.visualstudio.com)
-
-Peace out!
+{{< /notice >}}
